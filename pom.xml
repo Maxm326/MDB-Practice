@@ -26,7 +26,7 @@
         merge conflicts between commits changing the GA and those changing the V.
         -->
         <version>7.2.0.GA</version>
-        <relativePath>../pom.xml</relativePath>
+        <relativePath>./../Downloads/jboss-eap-quickstarts-7.2.0.GA/pom.xml</relativePath>
     </parent>
 
     <artifactId>helloworld-mdb</artifactId>
