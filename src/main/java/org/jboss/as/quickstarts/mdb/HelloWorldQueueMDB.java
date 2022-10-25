@@ -34,10 +34,8 @@ import javax.jms.TextMessage;
  * @author Serge Pagop (spagop@redhat.com)
  */
 @ResourceAdapter("activemq-rar.rar")
-@MessageDriven(name = "SampleQMDB",
-        mappedName = "queue/SampleQueue",
-        activationConfig = {
-                @ActivationConfigProperty(propertyName = "destination", propertyValue = "SampleQueue"),
+@MessageDriven(activationConfig = {
+                @ActivationConfigProperty(propertyName = "destinationLookup", propertyValue = "java:/queue/SampleQueue"),
                 @ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue"),
                 @ActivationConfigProperty(propertyName = "acknowledgeMode", propertyValue = "Auto-acknowledge")})
 public class HelloWorldQueueMDB implements MessageListener {

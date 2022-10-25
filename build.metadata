@@ -1,8 +1,11 @@
 # Created by buildmetadata-maven-plugin 1.7.0 ( SHA: 6f444cae ) 
+build.scmRevision.id=efa038ca9d9477d97be425313f9b0c67fc688210
+build.scmRevision.url=scm\:git\:git@github.com\:jboss/jboss-parent-pom.git/quickstart-parent/helloworld-mdb
 build.maven.version=3.8.2
 build.version=7.2.0.GA
+build.scmRevision.date=25.10.2022
 build.java.vm=Java HotSpot(TM) 64-Bit Server VM
-build.version.full=7.2.0.GA
+build.version.full=7.2.0.GArefa038ca9d9477d97be425313f9b0c67fc688210
 build.java.compiler=HotSpot 64-Bit Tiered Compilers
 build.maven.execution.cmdline=clean install
 build.groupId=org.jboss.eap.quickstarts

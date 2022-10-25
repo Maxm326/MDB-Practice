@@ -11,7 +11,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="helloworld-mdb" target="1.5" />
-      <module name="MDB-Practice" target="1.5" />
+      <module name="MDB-Practice" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MDB-Practice" options="-Xlint:unchecked" />
+    </option>
   </component>
 </project>
